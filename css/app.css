@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    border-radius:30px;
+    background-color: rgba(243, 243, 64, 0.747);
+    color:grey;
+    border: 3px solid rgba(243, 243, 64, 0.747);
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.navbar-nav{
+    margin-left:48%;
+    
+}
+
+.nav-link{
+    margin-left:30px;
+    font-weight: 700;
+    color:grey;
+}
+
+.nav-link span{
+    color: rgba(243, 243, 64, 0.747);
+}
+#home .split{
+    height: 90%;
+    width: 100%;
+    /* position: fixed; */
+    display: flex;
+    z-index:-1;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.split_left{
+    width: 50%;
+    background-color:rgba(243, 243, 64, 0.747);
+    padding-top:20%;
+    left: 0;
+}
+.split_right{
+    right: 0;
+    width: 50%;
+    background-image:url(/img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.split_left h1, h2, p{
+    color:grey;
+    text-align:justify;
+    margin: 20px;
+    margin-left: 20%;
+}
+.split_left h1{
+    font-weight: 900;
+}
+
+.split_left .btn{
+    border: 3px solid grey;
+    color:grey;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.split_left .btn:hover{
+    background-color:salmon;
+    color: black;
+}
+#About{
+    display: flex; 
+    margin-left:100px;
+}
+
+.abt1 {
+    width:25%;
+    text-align: justify;
+    background-color: #fff;
+    border: 3px solid whitesmoke;
+    margin:30px;        
+}
+.abt1 i{
+    font-size: 20px;
+    color:rgba(243, 243, 64, 0.747);
+}
+
+.abt1 h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.abt1 p{
+    font-size: 10px;
+}
+
+
+
+
